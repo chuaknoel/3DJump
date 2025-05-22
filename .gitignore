@@ -1,0 +1,51 @@
+# --- Unity 필수 ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# 프로젝트 설정과 사용자 환경 설정 중 공유 불필요한 것들
+UserSettings/
+MemoryCaptures/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+.vscode/*
+
+# Mac, Windows 시스템파일
+.DS_Store
+*.swp
+Thumbs.db
+desktop.ini
+
+# 빌드 결과물 제외 (필요시 직접 포함 설정)
+*.apk
+*.aab
+*.exe
+*.app
+*.zip
+
+# Crashlytics, Firebase 등 기타 외부 SDK 캐시
+.crashlytics/
+firebase/
+
+# --- Unity에서 중요한 것들은 포함되도록 보장! ---
+!Assets/**/*.meta
+!ProjectSettings/**/*.asset
+!ProjectSettings/**/*.json
