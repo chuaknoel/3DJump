@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class UIInventory : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class UIInventory : MonoBehaviour
     public Transform dropPosition;      // item 버릴 때 필요한 위치
 
     [Header("Selected Item")]           // 선택한 슬롯의 아이템 정보 표시 위한 UI
-    private ItemSlot selectedItem;
+    public ItemSlot selectedItem;
     private int selectedItemIndex;
     public TextMeshProUGUI selectedItemName;
     public TextMeshProUGUI selectedItemDescription;
@@ -190,9 +191,22 @@ public class UIInventory : MonoBehaviour
     {
         if (slots[index].item == null) return;
 
+        // 1. 기존 선택 슬롯의 outline 비활성화
+        if (selectedItem != null)
+        {
+            selectedItem.equipped = false;
+            selectedItem.GetComponent<Outline>().enabled = false;
+        }
+
+        // 2. 새 선택 슬롯 할당
         selectedItem = slots[index];
         selectedItemIndex = index;
 
+        // 3. 새 선택 슬롯에 outline 활성화
+        selectedItem.equipped = true;
+        selectedItem.GetComponent<Outline>().enabled = true;
+
+        // 4. 정보 텍스트 갱신
         selectedItemName.text = selectedItem.item.displayName;
         selectedItemDescription.text = selectedItem.item.description;
 
@@ -206,10 +220,11 @@ public class UIInventory : MonoBehaviour
         }
 
         useButton.SetActive(selectedItem.item.itemType == ItemType.Consumable);
-        equipButton.SetActive(selectedItem.item.itemType == ItemType.Equipable && !slots[index].equipped);
-        unEquipButton.SetActive(selectedItem.item.itemType == ItemType.Equipable && slots[index].equipped);
+        equipButton.SetActive(selectedItem.item.itemType == ItemType.Equipable && !selectedItem.equipped);
+        unEquipButton.SetActive(selectedItem.item.itemType == ItemType.Equipable && selectedItem.equipped);
         dropButton.SetActive(true);
     }
+
 
     public void OnUseButton()
     {
@@ -237,21 +252,17 @@ public class UIInventory : MonoBehaviour
 
     void RemoveSelctedItem()
     {
-        selectedItem.quantity--;
+        slots[selectedItemIndex].quantity--;
 
-        if (selectedItem.quantity <= 0)
+        if (slots[selectedItemIndex].quantity <= 0)
         {
-            if (slots[selectedItemIndex].equipped)
-            {
-                UnEquip(selectedItemIndex);
-            }
-
-            selectedItem.Clear(); //  요게 핵심
-            selectedItem.item = null;
+            selectedItem = null;
+            slots[selectedItemIndex].item = null;
+            selectedItemIndex = -1;
             ClearSelectedItemWindow();
         }
 
-        UpdateUI();
+            UpdateUI();
     }
 
     // Added missing UnEquip method
