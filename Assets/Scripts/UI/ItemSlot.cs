@@ -37,9 +37,10 @@ public class ItemSlot : MonoBehaviour
 
         if (outline != null)
         {
-            outline.enabled = equipped;
+            outline.enabled = inventory.selectedItem == this;
         }
     }
+
 
     // UI(슬롯 한 칸)에 정보가 없을 때 UI를 비워주는 함수
     public void Clear()
