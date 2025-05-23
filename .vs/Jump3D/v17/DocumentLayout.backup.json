@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "E:\\Unity\\Jump3D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|e:\\unity\\jump3d\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|e:\\unity\\jump3d\\assets\\scripts\\player\\playercondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|e:\\unity\\jump3d\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|e:\\unity\\jump3d\\assets\\scripts\\player\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|e:\\unity\\jump3d\\assets\\scripts\\player\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|e:\\unity\\jump3d\\assets\\scripts\\scriptableobject\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobject\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,11 +31,11 @@
       "RelativeMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|e:\\unity\\jump3d\\assets\\scripts\\ui\\uicondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|E:\\Unity\\Jump3D\\assets\\scripts\\ui\\uicondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uicondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|e:\\unity\\jump3d\\assets\\scripts\\ui\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|E:\\Unity\\Jump3D\\assets\\scripts\\ui\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC62F962-1B67-F275-6AC0-F558C3BD3FF1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,6 +71,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "E:\\Unity\\Jump3D\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAkwMQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:12:05.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerCondition.cs",
+              "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\Player\\PlayerCondition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCondition.cs",
+              "ToolTip": "E:\\Unity\\Jump3D\\Assets\\Scripts\\Player\\PlayerCondition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCondition.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAkwGYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:06:31.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "E:\\Unity\\Jump3D\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:04:41.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Interaction.cs",
+              "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\Player\\Interaction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Interaction.cs",
+              "ToolTip": "E:\\Unity\\Jump3D\\Assets\\Scripts\\Player\\Interaction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Interaction.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwF4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:03:03.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CharacterManager.cs",
+              "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\Player\\CharacterManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\CharacterManager.cs",
+              "ToolTip": "E:\\Unity\\Jump3D\\Assets\\Scripts\\Player\\CharacterManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\CharacterManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwCEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:01:29.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ItemData.cs",
               "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\ScriptableObject\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObject\\ItemData.cs",
@@ -63,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "UICondition.cs",
               "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\UI\\UICondition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UICondition.cs",
@@ -71,12 +156,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\UICondition.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:54:10.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T15:54:10.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "DamageIndicator.cs",
               "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\UI\\DamageIndicator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\DamageIndicator.cs",
@@ -88,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Condition.cs",
               "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\UI\\Condition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Condition.cs",
@@ -100,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "DayNightCycle.cs",
               "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\DayNightCycle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DayNightCycle.cs",
@@ -112,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "CampFire.cs",
               "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\CampFire.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CampFire.cs",
@@ -124,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ItemSlot.cs",
               "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\UI\\ItemSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ItemSlot.cs",
@@ -132,12 +216,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\ItemSlot.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAQwCIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:09:42.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T15:09:42.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "UIInventory.cs",
               "DocumentMoniker": "E:\\Unity\\Jump3D\\Assets\\Scripts\\UI\\UIInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIInventory.cs",
@@ -145,8 +228,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\UIInventory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:02:40.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T15:02:40.781Z"
             }
           ]
         }
